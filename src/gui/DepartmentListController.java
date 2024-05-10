@@ -53,7 +53,7 @@ public class DepartmentListController implements Initializable {
 		tableViewDepartments.prefHeightProperty().bind(stage.heightProperty());
 	}
 
-	public void udateTableView() {
+	public void updateTableView() {
 		if (service == null) {
 			throw new IllegalStateException("Service was null");
 		}
